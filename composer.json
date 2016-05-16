@@ -1,0 +1,22 @@
+{
+	"name": "jagroop/mvc",
+    "description": "Dead Simple php mvc",
+    "keywords": [
+        "php mvc mini"
+    ],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Jagroop Singh"
+        }
+    ],
+    "require": {
+        "jagroop/mvc": "dev-master",
+        "illuminate/database": "*"
+    },
+    "autoload": {
+    	"classmap": [
+    		"app/models"
+    	]
+    }
+}
